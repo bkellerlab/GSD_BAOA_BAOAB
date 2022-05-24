@@ -3,7 +3,7 @@
 this repository contains supporting information to our publication:<br>
 S.Kieninger, B.G. Keller, **"GROMACS Stochastic Dynamics and BAOAB are equivalent configurational sampling algorithms"**, XX <br>
 <br>
-In our publication, we studied a one-dimensional model system, an ideal gas and TIP3P bulk water. 
+In our publication, we studied a one-dimensional model system, an ideal gas and TIP3P bulk water with OpenMM<sup>[[1]](#1)[[2]](#2)</sup> (version 7.4.2) in combination with OpenMMTools<sup>[[3]](#3)</sup>, GROMACS<sup>[[4]](#4)</sup> (version 2019.4) and Python3. 
 You can find the corresponding input files, programme codes and simulation protocols of the these systems in this repository. 
 Additionally, we provide all results presented in the figures as files in npy-format (```numpy.lib.format```).
 
@@ -43,7 +43,7 @@ The directory tree is as follows:
 
 <h4>Ideal gas </h4>
 
-All MD simulations were performed with the software package OpenMM and the post analysis was carried out with Python3.
+All MD simulations were performed with OpenMM and the post analysis was carried out with Python3.
 We included Python scripts on how to load the provided results.
 The directory tree is as follows:
 
@@ -63,7 +63,7 @@ ideal_gas
 
 <h4>TIP3P bulk water </h4>
 
-We performed MD Simulations with the software packages OpenMM as well as GROMACS. The post analysis was carried out with Python3.
+We performed MD Simulations with OpenMM as well as GROMACS. The post analysis was carried out with Python3.
 We included Python scripts on how to load the provided results.
 The directory tree is as follows:
 
@@ -87,7 +87,20 @@ water_box
                   how_to_load_distributions.py
                   results as .npy
 ```
+<br>
+<h2>References </h2>
+
+<a id="1">[1]</a>
+P. Eastman, J. Swails, J. D. Chodera, R. T. McGibbon, Y. Zhao, K. A. Beauchamp, L.-P. Wang, A. C. Simmonett, M. P. Harrigan, C. D. Stern, R. P. Wiewiora, B. R. Brooks, V. S. Pande,
+*PLoS Comput. Biol.*, **13**, (2017), 1 
+
+<a id="2">[2]</a>
+<https://github.com/openmm/openmm>
+
+<a id="3">[3]</a>
+<https://github.com/choderalab/openmmtools>
 
 
-
-
+<a id="4">[4]</a>
+H. Berendsen, D. van der Spoel, R. van Drunen,
+*Comput. Phys. Commun.*, **91**, (1995), 43-65 
