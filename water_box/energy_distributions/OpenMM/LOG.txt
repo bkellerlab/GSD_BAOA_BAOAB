@@ -1,0 +1,24 @@
+
+System parameters: 
+--------------------------
+box length: 3.143 nm
+non-bonded cutoff: 1 nm
+number of water molecules: 1024
+
+
+Equilibration parameters: 
+--------------------------
+steps: 100 steps 
+time: 0.2 ps
+
+
+Simulation parameters: 
+--------------------------
+temperature: 300 K
+collision rate: 2 /ps
+time step: 0.002 ps
+steps: 100 steps 
+time: 0.2 ps
+write-out frequency: 10 steps 
+Simulation start: 2022-05-18 15:41:34
+Simulation end: 2022-05-18 15:41:39
