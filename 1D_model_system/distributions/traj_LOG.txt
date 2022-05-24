@@ -1,0 +1,14 @@
+
+******* USED PARAMETERS ******** 
+
+time step = 0.2 
+collision rate = 1 
+mass = 1 
+temperature = 1 
+total number of steps = 1000000 
+Boltzmann constant = 1 
+initial position = 0 
+initial velocity = 0 
+V = lambda x: (x**2 - 1)**2 + x  # potential
+der_V = lambda x: 4*x*(x**2 - 1) + 1 # derivative of potential
+number of experiments = 500 
