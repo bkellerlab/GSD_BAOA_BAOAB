@@ -2,7 +2,7 @@
 
 this repository contains supporting information to our publication:<br>
 S.Kieninger, B.G. Keller, **"GROMACS Stochastic Dynamics and BAOAB are equivalent configurational sampling algorithms"**, 
-Kieninger, S., & Keller, B. G. (2022). GROMACS stochastic dynamics and BAOAB are equivalent configurational sampling algorithms. Journal of Chemical Theory and Computation, 18(10), 5792-5798. <br>
+Journal of Chemical Theory and Computation, 18(10), 5792-5798. <br>
 https://doi.org/10.1021/acs.jctc.2c00585 <br>
 <br>
 In our publication, we studied a one-dimensional model system, an ideal gas and TIP3P bulk water with OpenMM<sup>[[1]](#1)[[2]](#2)</sup> (version 7.4.2) in combination with OpenMMTools<sup>[[3]](#3)</sup>, GROMACS<sup>[[4]](#4)</sup> (version 2019.4) and Python3. 
